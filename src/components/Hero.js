@@ -5,9 +5,9 @@ import Form from "./Form";
 class Hero extends React.Component {
   render() {
     return (
-      <h1 className="heroImage">
+      <div className="heroImage">
         <Form />
-      </h1>
+      </div>
     );
   }
 }

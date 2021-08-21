@@ -1,21 +1,57 @@
+* {
+  border: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .form {
   display: flex;
   flex-direction: column;
-  float: right;
-  width: 50%;
-  margin-top: 15%;
+  text-align: center;
+  height: 54vh;
+  position: relative;
+  padding-top: 100px;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 29px;
 }
 
-input {
-  height: 50px;
-  width: 300px;
+p {
+  font-size: 25px;
+}
+
+.address-form {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100vw;
+  bottom: 20px;
 }
 
 button {
+  width: 304px;
+  height: 54px;
+}
+
+input {
   width: 300px;
   height: 50px;
+}
+
+input,
+button {
+  text-align: center;
+  padding: 2;
+  margin: 10px auto 0 auto;
+}
+
+@media only screen and (min-width: 620px) {
+  .address-form {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 100vw;
+    bottom: 20px;
+  }
 }

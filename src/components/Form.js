@@ -26,8 +26,8 @@ class Form extends React.Component {
             placeholder="Enter street address"
             onChange={this.handleChange}
           />
+          <button>Get your offer</button>
         </form>
-        <button>Get your offer</button>
       </div>
     );
   }
