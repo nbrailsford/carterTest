@@ -1,0 +1,7 @@
+.heroImage {
+  background: url(../images/heroImage.jpg) no-repeat center center fixed;
+  background-size: cover;
+  max-width: 100vw;
+  height: 70vh;
+  object-fit: cover;
+}
